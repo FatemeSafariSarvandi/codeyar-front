@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./Style/style.css">
+
+    <link href="http://fonts.cdnfonts.com/css/dubai" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="logo"><img src="./image/logo.png" alt="" width="100px" height="100px"></div>
+    <div id="subbody">
+        
+        <div id="background" class="col-3 col-s-6-7 col-ms-11">
+            
+            <ul id="menu">
+                <li class="item" id="login"><a href="#part1" id="aTagLogin" class="col-ms-12">ورود</a></li> 
+                <li class="item" id="singup"><a href="#part2" id="aTagSingup" class="col-ms-12">ثبت نام</a></li>  
+            </ul>
+
+            <div id="login-display" class=".col-12">
+                <form id="login-form" class=".col-12" action="">
+                    <input type="text" placeholder="نام کاربری" required="">
+                    <input type="password" placeholder="رمز عبور" required="">
+                    <button type="submit">ورود</button>
+                </form>
+
+                <div id="notyet-singup" class="text"><a href="#part2">!هنوز ثبت نام نکرده ام</a></div>
+                <div id="forget-password" class="text"><a href="#">رمز عبور را فراموش کرده ام</a></div>
+            </div>
+
+           <div id="singup-display" class=".col-12">
+                <form id="singup-form" class=".col-12" action="">
+                    <input type="text" placeholder="نام" required="">
+                    <input type="text" placeholder="نام خانوادگی" required="">
+                    <input type="text" placeholder="نام کاربری" required="">
+                    <input type="password" placeholder="رمز عبور" required="">
+                    <input type="email" placeholder="ایمیل" required="">
+                    <input type="text" placeholder="شماره همراه" required="">
+                    <button type="submit">ورود</button>
+                </form>
+
+                <div id="registered" class="text"><a href="#part2">!قبلا ثبت نام کرده ام</a></div>
+           </div>
+           
+           
+            <i class="fas fa-home"></i>
+        </div>
+    </div>
+    <script src="./Script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html , body{
+    font-family: 'Dubai', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    direction: rtl;
+    font-size: 20px;
+    line-height: 26px;
+    background-image: url('../image/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+#logo{
+    text-align: right;  
+}
+#subbody{
+    display: flex;
+    justify-content: center; 
+}
+#background{
+    position: relative; 
+    padding: 10px 30px 10px 30px;
+    opacity: 1;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.308);
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#menu a{
+   padding: 0px 35px 5px 35px;
+   border-bottom: 2px solid #8860D0;
+}
+#menu a:hover{
+    color: #2d2046!important;
+    border-bottom-color: #2d2046!important;
+ }
+#background a{
+    text-decoration: none;
+    color: #8860D0;
+}
+#singup-display{
+    display: none;
+}
+#singup a{
+    color: #C1C8E4;
+    border-bottom-color:#C1C8E4;
+}
+#login-form , #singup-form{
+    margin-top: 60px;
+}
+#login-form>input , #singup-form>input{
+    font-family: 'Dubai', sans-serif;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 15px;
+    box-shadow: 2px 5px 10px -5px rgba(0, 0, 0, 1);
+}
+#login-form>button , #singup-form>button{
+    font-family: 'Dubai', sans-serif;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color: white;
+    background-color: #8860D0;
+    box-shadow: -4px 5px 3px -3px rgba(0,0,0,0.69);
+    border: none;
+    border-radius: 15px;
+    padding: 6px 30px;
+    margin: 30px;
+}
+#login-form>button:hover , #singup-form>button:hover{
+    background-color: #2d2046;
+    box-shadow: -4px 5px 3px -3px rgba(146, 144, 144, 0.69);
+}
+.text{
+    margin: 10px;
+    font-size: 0.8rem;
+}
+.fa-home{
+    color: #8860D0;
+    font-size: 1.5rem;
+    position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+.fa-home:hover ,
+#registered a:hover ,
+#forget-password a:hover,
+#notyet-singup a:hover{ 
+    color: #2d2046;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 1300px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-6-7{width: 54%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (max-width: 600px) {
+    .col-ms-1 {width: 8.33%;}
+    .col-ms-2 {width: 16.66%;}
+    .col-ms-3 {width: 25%;}
+    .col-ms-4 {width: 33.33%;}
+    .col-ms-5 {width: 41.66%;}
+    .col-ms-6 {width: 50%;}
+    .col-ms-7 {width: 58.33%;}
+    .col-ms-8 {width: 66.66%;}
+    .col-ms-9 {width: 75%;}
+    .col-ms-10 {width: 83.33%;}
+    .col-ms-11 {width: 91.66%;}
+    .col-ms-12 {width: 100%;}
+    #menu{
+        display: block;
+        text-align: center;
+    }
+    #background{
+        height: auto;
+        padding: 10px 20px 20px 20px;
+    }
+    #menu a{
+        margin-top: 15px;
+        display: block;
+    }
+}
